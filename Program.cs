@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Course3
+namespace SaidaDeDados
 {
     class Program
     {
