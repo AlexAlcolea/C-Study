@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace Course7_InputData2
+namespace InputData_2
 {
     class Program
     {
