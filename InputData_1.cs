@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Course7_InputData
+namespace InputData_1
 {
     class Program
     {
