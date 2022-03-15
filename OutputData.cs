@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SaidaDeDados
+namespace OutputData
 {
     class Program
     {
