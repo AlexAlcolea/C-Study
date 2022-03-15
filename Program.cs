@@ -4,26 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Course4
+namespace Course7_InputData
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 10;
+            string frase = Console.ReadLine();
+            string x = Console.ReadLine();
+            string y = Console.ReadLine();
+            string z = Console.ReadLine();
+
+            //string s = Console.ReadLine();
+
+            string[] lista = Console.ReadLine().Split(' ');
+            string a = lista[0];
+            string b = lista[1];
+            string c = lista[2];
+
+            Console.WriteLine("Você digitou: " + frase);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
             Console.WriteLine(a);
-
-            a += 2;
-            Console.WriteLine(a);
-
-            a *= 3;
-            Console.WriteLine(a);
-
-            string s = "ABC";
-            Console.WriteLine(s);
-
-            s += "DEF";
-            Console.WriteLine(s);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
         }
     }
 }
